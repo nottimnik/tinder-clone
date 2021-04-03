@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header'
 import TinderCart from './components/TinderCarts/TinderCarts'
+import SwipeButtons from './components/SwipeButtons/SwipeButtons'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Header />
       
       <TinderCart />
+
+      <SwipeButtons />
 
     </div>
   );
